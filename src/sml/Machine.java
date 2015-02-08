@@ -35,6 +35,7 @@ public class Machine {
 	public static void main(String[] args) {
 		
 		// TODO Remove this
+		args = new String[1];
 		args[0] = "testFile.txt";
 
 		Machine m = new Machine();
