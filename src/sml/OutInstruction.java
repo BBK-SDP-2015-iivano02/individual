@@ -29,6 +29,6 @@ public class OutInstruction extends Instruction {
 
 	@Override
 	public String toString() {
-		return super.toString() + " " + op1 + " print " + op2 + " to " + result;
+		return super.toString() + " " + op1 + " print " + op2 + result;
 	}
 }
