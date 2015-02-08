@@ -110,11 +110,7 @@ public class Translator {
 			r = scanInt();
 			s1 = scanInt();
 			return new LinInstruction(label, r, s1);
-		case "bnz":
-			r = scanInt();
-			s1 = scanInt();
-			return new BnzInstruction(label, s1, x);
-		}
+			}
 
 		// You will have to write code here for the other instructions.
 
