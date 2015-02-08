@@ -18,9 +18,7 @@ public class OutInstruction extends Instruction {
 
 	public OutInstruction(String label, int op1) {
 		this(label, "out");
-		this.result = result;
 		this.op1 = op1;
-		this.op2 = op2;
 	}
 
 	@Override
