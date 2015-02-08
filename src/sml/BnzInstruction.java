@@ -9,14 +9,16 @@ package sml;
 public class BnzInstruction extends Instruction {
 
 	private int op1;
+	private int nextOp;
 
 	public BnzInstruction(String label, String op) {
 		super(label, op);
 	}
 
-	public BnzInstruction(String label, int op1, int nextRegister) {
+	public BnzInstruction(String label, int op1, int nextOp) {
 		this(label, "bnz");
 		this.op1 = op1;
+		
 	}
 
 	@Override
