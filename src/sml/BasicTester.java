@@ -5,8 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class BasicTester {
-	private Object valueExpected = 1;
-	private Object valueActual = 0;
+	protected Object valueExpected = 1;
+	protected Object valueActual = 0;
 
 	@Test
 	public void test() {
