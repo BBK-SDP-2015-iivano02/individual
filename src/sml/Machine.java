@@ -33,6 +33,9 @@ public class Machine {
 	}
 
 	public static void main(String[] args) {
+		
+		// TODO Remove this
+		args[0] = "testFile.txt";
 
 		Machine m = new Machine();
 		Translator t = new Translator(args[0]);
