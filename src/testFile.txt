@@ -3,4 +3,4 @@ f1 lin 1 9
 f2 add 2 0 1
 f3 sub 3 2 0
 f4 mul 4 0 3
-f5 div 5 4 0
+f5 div 5 4 1
