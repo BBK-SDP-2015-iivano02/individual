@@ -1,5 +1,5 @@
 package sml;
 
-public class SubInstructionTester {
+public class SubInstructionTester extends BasicTester {
 
 }
