@@ -16,7 +16,7 @@ public class BnzInstruction extends Instruction {
 		super(label, op);
 	}
 
-	public BnzInstruction(String label, int result, int op1, int op2) {
+	public BnzInstruction(String label, int op1, int op2) {
 		this(label, "div");
 		this.result = result;
 		this.op1 = op1;
