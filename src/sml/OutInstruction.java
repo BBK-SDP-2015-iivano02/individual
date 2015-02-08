@@ -24,7 +24,7 @@ public class OutInstruction extends Instruction {
 	@Override
 	public void execute(Machine m) {
 		int value1 = m.getRegisters().getRegister(op1);
-		System.out.println(value1);
+		System.out.println("Value of " + op1 + " is: " + value1);
 	}
 
 	@Override
