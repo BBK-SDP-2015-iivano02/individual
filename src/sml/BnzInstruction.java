@@ -23,7 +23,11 @@ public class BnzInstruction extends Instruction {
 
 	@Override
 	public void execute(Machine m) {
-		int counter = 0;
+		StringBuilder sb = new StringBuilder(label);
+		System.out.println(label);
+		sb.deleteCharAt(0);
+		System.out.println(label);
+		int nextOpInt = Integer.parseInt(label);
 		if (m.getRegisters().getRegister(op1) != 0) {
 			
 		}
